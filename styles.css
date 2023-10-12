@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  background-color: rgb(115, 168, 87);
+}
+
+#quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+#quote-box .quote-text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    font-weight: 600;
+    font-size: 1.75em;
+}
+#quote-box .buttons .button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(115, 168, 87);
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#quote-box .buttons .social {
+    float: left;
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+}
+#quote-box .buttons .new {
+    float: right;
+}
+#quote-box .buttons .button:hover {
+  opacity: 0.85;
+}
+footer, .author {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  margin: 15px auto 30px auto;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+}
